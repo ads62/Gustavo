@@ -1,0 +1,10 @@
+GUSTAVO VEÍCULOS – site estático (HTML + CSS + JS, sem dependências).
+
+PUBLICAR: envie TODO o conteúdo desta pasta (index.html, assets/, favicon.svg, robots.txt) para a pasta pública da hospedagem (public_html). Funciona em qualquer hospedagem comum, Netlify, Vercel ou GitHub Pages.
+
+DEPOIS DE PUBLICAR: em index.html troque o og:image pela URL completa (https://seudominio.com.br/assets/img/fachada.webp) para a prévia no WhatsApp/Facebook.
+
+FICHA DO VEÍCULO: só aparece o que for informado. No botão <button class="v" ...> de cada veículo (dentro de <ul class="stock">) você pode acrescentar, quando tiver o dado real:
+  data-year="2019"  data-km="82.000 km"  data-fuel="Flex"  data-gear="Manual"  data-version="..."  data-price="R$ 00.000"
+  data-imgs="assets/img/a.webp,assets/img/b.webp"  (várias fotos: aparecem miniaturas para navegar)
+Campos não preenchidos não aparecem. Fotos: use o arquivo original do celular (ideal 1600 px ou mais de largura), em .webp ou .jpg.
